@@ -1,0 +1,687 @@
+﻿Log file open, 01/23/20 22:00:32
+LogInit:Display: Running engine for game: JuegoPropioUnreal
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(302843258) SRandInit(302843258).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.123230
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/UnrealEngine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.23-21.00.32:767][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.23-21.00.32:767][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.23-21.00.32:782][  0]LogInit: Computer: LAPTOP-IAG928L3
+[2020.01.23-21.00.32:782][  0]LogInit: User: Lucía
+[2020.01.23-21.00.32:782][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.23-21.00.32:782][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.23-21.00.32:782][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.01.23-21.00.32:782][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.23-21.00.32:782][  0]LogMemory: Process Physical Memory: 274.62 MB used, 274.62 MB peak
+[2020.01.23-21.00.32:782][  0]LogMemory: Process Virtual Memory: 262.45 MB used, 262.45 MB peak
+[2020.01.23-21.00.32:782][  0]LogMemory: Physical Memory: 6061.20 MB used,  26626.09 MB free, 32687.28 MB total
+[2020.01.23-21.00.32:782][  0]LogMemory: Virtual Memory: 4749.39 MB used,  26626.09 MB free, 134217728.00 MB total
+[2020.01.23-21.00.32:878][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.23-21.00.32:878][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.23-21.00.34:249][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.23-21.00.34:352][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.01.23-21.00.34:352][  0]LogD3D11RHI:       8081/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.23-21.00.34:356][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.23-21.00.34:356][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.23-21.00.34:356][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.23-21.00.34:367][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.23-21.00.34:367][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.23-21.00.34:367][  0]LogWindows: EnumDisplayDevices:
+[2020.01.23-21.00.34:368][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.01.23-21.00.34:368][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.23-21.00.34:369][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.23-21.00.34:369][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.23-21.00.34:369][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.23-21.00.34:369][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.01.23-21.00.34:369][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.23-21.00.34:369][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.23-21.00.34:369][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.23-21.00.34:434][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.23-21.00.34:451][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.23-21.00.34:496][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Intermediate/Shaders/WorkingDirectory/17560/).
+[2020.01.23-21.00.34:496][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lucía/AppData/Local/Temp/UnrealShaderWorkingDir/47BC9F904D3D6F87A92308964492F318/'.
+[2020.01.23-21.00.34:496][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.23-21.00.36:166][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.23-21.00.36:236][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.01.23-21.00.36:310][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.23-21.00.36:378][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.01.23-21.00.36:450][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.01.23-21.00.36:529][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.23-21.00.36:599][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.23-21.00.36:671][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.23-21.00.36:741][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.23-21.00.36:813][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.01.23-21.00.36:889][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.23-21.00.36:961][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.23-21.00.37:033][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.23-21.00.37:107][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.23-21.00.37:179][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.23-21.00.37:321][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.23-21.00.37:321][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.23-21.00.37:380][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.01.23-21.00.37:497][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.01.23-21.00.37:538][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.01.23-21.00.37:609][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.23-21.00.37:676][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.23-21.00.37:750][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.23-21.00.37:819][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.01.23-21.00.37:819][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.23-21.00.38:494][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.23-21.00.38:593][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.23-21.00.38:593][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.23-21.00.38:594][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.23-21.00.38:594][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.23-21.00.38:594][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.23-21.00.38:594][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.23-21.00.38:615][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.23-21.00.38:628][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lucía/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.23-21.00.38:642][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.23-21.00.38:642][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.23-21.00.38:643][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.23-21.00.38:643][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.23-21.00.39:124][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.23-21.00.39:206][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.23-21.00.39:416][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.23-21.00.39:480][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.23-21.00.39:560][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.23-21.00.39:560][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.23-21.00.39:560][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.23-21.00.40:294][  0]LogNetVersion: JuegoPropioUnreal , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3708460046)
+[2020.01.23-21.00.40:364][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2020.01.23-21.00.40:425][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.033684 seconds
+[2020.01.23-21.00.40:431][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.01.23-21.00.40:432][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2020.01.23-21.00.40:432][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.23-21.00.40:514][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.23-21.00.44:115][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.23-21.00.44:172][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.23-21.00.44:948][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.23-21.00.45:549][  0]SourceControl: Info Source control is disabled
+[2020.01.23-21.00.45:642][  0]SourceControl: Info Source control is disabled
+[2020.01.23-21.00.45:724][  0]SourceControl: Info Source control is disabled
+[2020.01.23-21.00.45:799][  0]SourceControl: Info Source control is disabled
+[2020.01.23-21.00.46:854][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.23-21.00.47:769][  0]LogEngine: Initializing Engine...
+[2020.01.23-21.00.47:771][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.23-21.00.48:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.23-21.00.48:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.23-21.00.48:188][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.23-21.00.48:203][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.00.48:271][  0]LogInit: FAudioDevice initialized.
+[2020.01.23-21.00.48:326][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.23-21.00.48:337][  0]LogInit: Texture streaming: Enabled
+[2020.01.23-21.00.48:451][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.23-21.00.48:767][  0]LogInit: Transaction tracking system initialized
+[2020.01.23-21.00.49:211][  0]BlueprintLog: New page: Editor Load
+[2020.01.23-21.00.50:520][  0]LocalizationService: Info Localization service is disabled
+[2020.01.23-21.00.51:512][  0]LogConsoleResponse:Display: 
+[2020.01.23-21.00.51:705][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.23-21.00.51:705][  0]LogCook:Display: Mobile HDR setting 1
+[2020.01.23-21.00.52:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/' took 0.04s
+[2020.01.23-21.00.53:272][  0]SourceControl: Info Source control is disabled
+[2020.01.23-21.00.53:273][  0]Cmd: MAP LOAD FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.23-21.00.53:273][  0]LightingResults: New page: Lighting Build
+[2020.01.23-21.00.53:334][  0]MapCheck: New page: Map Check
+[2020.01.23-21.00.53:334][  0]LightingResults: New page: Lighting Build
+[2020.01.23-21.00.53:712][  0]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.00.53:722][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.23-21.00.53:737][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.23-21.00.53:826][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.732ms to complete.
+[2020.01.23-21.00.53:826][  0]LogFileHelpers: Loading map 'Nivel1' took 0.553
+[2020.01.23-21.00.53:992][  0]LogCollectionManager: Loaded 0 collections in 0.001167 seconds
+[2020.01.23-21.00.54:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Collections/' took 0.01s
+[2020.01.23-21.00.54:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Developers/Lucía/Collections/' took 0.01s
+[2020.01.23-21.00.54:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Collections/' took 0.01s
+[2020.01.23-21.00.54:098][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.23-21.00.54:110][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2329 classes and 491 folders.
+[2020.01.23-21.00.54:200][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.01.23-21.00.54:298][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.01.23-21.00.54:360][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2020.01.23-21.00.54:463][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.01.23-21.00.54:473][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.23-21.00.54:476][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.23-21.00.54:484][  0]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.23-21.00.54:600][  0]LogRenderer: Reallocating scene render targets to support 948x436 NumSamples 1 (Frame:1).
+[2020.01.23-21.00.54:680][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.23-21.00.54:728][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.01.23-21.00.54:815][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.01.23-21.00.54:815][  0]LogLoad: (Engine Initialization) Total time: 24.80 seconds
+[2020.01.23-21.00.54:815][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2020.01.23-21.00.54:815][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.23-21.00.55:156][  0]LogOcInput: OculusInput pre-init called
+[2020.01.23-21.00.55:156][  0]LogHMD: Starting GearVRController plugin
+[2020.01.23-21.00.55:183][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.23-21.00.55:825][  2]LogAssetRegistry: Asset discovery search completed in 15.4825 seconds
+[2020.01.23-21.00.55:828][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.01.23-21.00.55:828][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2020.01.23-21.01.11:175][274]LogBlueprint:Error: [Compiler Jugador] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2020.01.23-21.01.11:180][274]LogBlueprint:Warning: [Compiler Jugador] Warning [0041.16] Compile of Jugador failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms] (/Game/Jugador.Jugador)
+[2020.01.23-21.01.11:180][274]LogBlueprint:Warning: [Compiler Jugador] Warning [0041.16] Compile of Jugador failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Jugador.Jugador)
+[2020.01.23-21.01.11:180][274]LogBlueprint:Warning: [Compiler Jugador] Warning [0041.16] Compile of Jugador failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Jugador.Jugador)
+[2020.01.23-21.01.11:233][274]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.23-21.01.11:778][274]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2020.01.23-21.01.12:535][274]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.23-21.01.12:612][274]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.23-21.01.12:720][275]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.23-21.01.28:505][184]BlueprintLog: New page: Compile Jugador
+[2020.01.23-21.01.30:001][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.01.30:054][251]LogSavePackage: Save=41.84ms
+[2020.01.23-21.01.30:054][251]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/JugadorCAEE48B847D75D4883D70298F180EB26.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.01.30:060][251]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.02.02:774][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.02.02:810][767]LogSavePackage: Save=29.47ms
+[2020.01.23-21.02.02:810][767]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Jugador513EEF0B471B6F0E79213CA9D8E08868.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.02.02:813][767]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.02.06:305][973]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.23-21.02.06:385][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.23-21.02.06:385][973]PIE: New page: PIE session: Nivel1 (Jan 23, 2020, 11:02:06 PM)
+[2020.01.23-21.02.06:385][973]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Nivel1
+[2020.01.23-21.02.06:391][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005700s)
+[2020.01.23-21.02.06:391][973]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.02.06:392][973]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2020.01.23-21.02.06:392][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nivel1.Nivel1 to /Game/UEDPIE_0_Nivel1.Nivel1 (0.006501s)
+[2020.01.23-21.02.06:418][973]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.02.06:440][973]LogInit: FAudioDevice initialized.
+[2020.01.23-21.02.06:496][973]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.23-21.02.06:500][973]LogWorld: Bringing World /Game/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 60) at 2020.01.23-22.02.06
+[2020.01.23-21.02.06:500][973]LogWorld: Bringing up level for play took: 0.001242
+[2020.01.23-21.02.06:570][973]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2020.01.23-21.02.06:571][973]PIE: Info Play in editor start time for /Game/UEDPIE_0_Nivel1 0.538
+[2020.01.23-21.02.36:032][667]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.01.23-21.02.36:178][675]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JuegoPropioUnreal
+[2020.01.23-21.02.36:178][675]LogTemp: CWD: D:\UnrealEngine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.01.23-21.02.36:178][675]LogTemp: Initial Dir: D:\UnrealEngine\UE_4.16
+[2020.01.23-21.02.36:178][675]LogTemp: Env CWD: D:\UnrealEngine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.01.23-21.02.36:179][675]LogTemp: BranchPath = LAPTOP-IAG928L3/D/UnrealEngine/UE_4.16/Engine/Binaries --- GameBranchPath = LAPTOP-IAG928L3/D/UnrealEngine/UE_4.16/Engine/Binaries
+[2020.01.23-21.02.36:197][676]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Luc?a\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.01.23-21.02.51:201][572]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.23-21.02.51:215][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.23-21.02.51:215][572]PIE: New page: PIE session: Nivel1 (Jan 23, 2020, 11:02:51 PM)
+[2020.01.23-21.02.51:215][572]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Nivel1
+[2020.01.23-21.02.51:221][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005894s)
+[2020.01.23-21.02.51:221][572]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.02.51:221][572]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2020.01.23-21.02.51:221][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nivel1.Nivel1 to /Game/UEDPIE_0_Nivel1.Nivel1 (0.006594s)
+[2020.01.23-21.02.51:247][572]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.02.51:267][572]LogInit: FAudioDevice initialized.
+[2020.01.23-21.02.51:303][572]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.23-21.02.51:305][572]LogWorld: Bringing World /Game/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 60) at 2020.01.23-22.02.51
+[2020.01.23-21.02.51:306][572]LogWorld: Bringing up level for play took: 0.001029
+[2020.01.23-21.02.51:307][572]PIE: Info Play in editor start time for /Game/UEDPIE_0_Nivel1 -0.726
+[2020.01.23-21.03.54:330][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modo1vs1" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset" SILENT=true
+[2020.01.23-21.03.54:351][163]LogSavePackage: Save=10.04ms
+[2020.01.23-21.03.54:352][163]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Modo1vs1935B98B540EA3433DF0E9FA87C9E44AF.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset'
+[2020.01.23-21.03.54:354][163]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset
+[2020.01.23-21.04.17:407][499]BlueprintLog: New page: Compile Modo1vs1
+[2020.01.23-21.04.17:410][499]LogBlueprint:Error: [Compiler Modo1vs1] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2020.01.23-21.04.17:410][499]LogBlueprint:Error: [Compiler Modo1vs1] Error Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.01.23-21.04.17:699][499]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2020.01.23-21.04.17:699][499]BlueprintEditorCompileResults:Error: Error Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.01.23-21.04.17:700][499]LogBlueprint:Warning: [Compiler Modo1vs1] Warning [0227.68] Compile of Modo1vs1 failed. 2 Fatal Issue(s) 0 Warning(s) [in 292 ms] (/Game/Modo1vs1.Modo1vs1)
+[2020.01.23-21.04.18:590][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modo1vs1" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset" SILENT=true
+[2020.01.23-21.04.18:609][551]LogSavePackage: Save=12.01ms
+[2020.01.23-21.04.18:609][551]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Modo1vs12EC0F2394AE24C00BA7A678CAD2D98EC.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset'
+[2020.01.23-21.04.18:615][551]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset
+[2020.01.23-21.04.41:757][887]BlueprintLog: New page: Compile Modo1vs1
+[2020.01.23-21.04.42:595][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modo1vs1" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset" SILENT=true
+[2020.01.23-21.04.42:615][931]LogSavePackage: Save=12.32ms
+[2020.01.23-21.04.42:615][931]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Modo1vs185A04EBA4194ED66B8A5598AB0E7C5A7.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset'
+[2020.01.23-21.04.42:621][931]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Modo1vs1.uasset
+[2020.01.23-21.04.45:055][ 73]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.23-21.04.45:082][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.23-21.04.45:082][ 73]PIE: New page: PIE session: Nivel1 (Jan 23, 2020, 11:04:45 PM)
+[2020.01.23-21.04.45:082][ 73]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Nivel1
+[2020.01.23-21.04.45:087][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004886s)
+[2020.01.23-21.04.45:087][ 73]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.04.45:088][ 73]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2020.01.23-21.04.45:088][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nivel1.Nivel1 to /Game/UEDPIE_0_Nivel1.Nivel1 (0.005677s)
+[2020.01.23-21.04.45:109][ 73]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.04.45:128][ 73]LogInit: FAudioDevice initialized.
+[2020.01.23-21.04.45:167][ 73]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.23-21.04.45:173][ 73]LogWorld: Bringing World /Game/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 60) at 2020.01.23-22.04.45
+[2020.01.23-21.04.45:174][ 73]LogWorld: Bringing up level for play took: 0.002422
+[2020.01.23-21.04.45:177][ 73]PIE: Info Play in editor start time for /Game/UEDPIE_0_Nivel1 -0.857
+[2020.01.23-21.04.50:192][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Nivel1" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.23-21.04.50:281][371]LogSavePackage: Save=63.08ms
+[2020.01.23-21.04.50:281][371]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Nivel1176CA1FB4FDA0FCFFADAEA95D52C1A07.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap'
+[2020.01.23-21.04.50:284][371]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap
+[2020.01.23-21.04.59:633][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Nivel1" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.23-21.04.59:715][901]LogSavePackage: Save=60.27ms
+[2020.01.23-21.04.59:715][901]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Nivel175E3134C4608F7119E27F1ABD0A0A284.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap'
+[2020.01.23-21.04.59:719][901]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap
+[2020.01.23-21.06.59:066][916]BlueprintLog: New page: Compile Jugador
+[2020.01.23-21.06.59:072][916]LogBlueprint:Error: [Compiler Jugador] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2020.01.23-21.06.59:075][916]LogBlueprint:Error: [Compiler Jugador] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2020.01.23-21.06.59:257][916]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2020.01.23-21.06.59:257][916]LogBlueprint:Warning: [Compiler Jugador] Warning [0389.24] Compile of Jugador failed. 1 Fatal Issue(s) 0 Warning(s) [in 191 ms] (/Game/Jugador.Jugador)
+[2020.01.23-21.07.03:365][156]BlueprintLog: New page: Compile Jugador
+[2020.01.23-21.07.04:052][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.07.04:100][187]LogSavePackage: Save=36.13ms
+[2020.01.23-21.07.04:100][187]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/JugadorC96E301C4FDC042A8F736380DF5DCEF2.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.07.04:105][187]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.07.08:305][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.07.08:348][438]LogSavePackage: Save=34.54ms
+[2020.01.23-21.07.08:348][438]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/JugadorA16DFC6D4EDEA5875D4154978A5053E2.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.07.08:351][438]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.07.12:496][683]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.23-21.07.12:511][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.23-21.07.12:511][683]PIE: New page: PIE session: Nivel1 (Jan 23, 2020, 11:07:12 PM)
+[2020.01.23-21.07.12:511][683]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Nivel1
+[2020.01.23-21.07.12:517][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005637s)
+[2020.01.23-21.07.12:517][683]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.07.12:517][683]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2020.01.23-21.07.12:518][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nivel1.Nivel1 to /Game/UEDPIE_0_Nivel1.Nivel1 (0.006465s)
+[2020.01.23-21.07.12:542][683]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.07.12:560][683]LogInit: FAudioDevice initialized.
+[2020.01.23-21.07.12:596][683]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.23-21.07.12:599][683]LogWorld: Bringing World /Game/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 60) at 2020.01.23-22.07.12
+[2020.01.23-21.07.12:599][683]LogWorld: Bringing up level for play took: 0.001319
+[2020.01.23-21.07.12:601][683]PIE: Info Play in editor start time for /Game/UEDPIE_0_Nivel1 0.568
+[2020.01.23-21.07.39:475][268]LogRenderer: Reallocating scene render targets to support 948x540 NumSamples 1 (Frame:1).
+[2020.01.23-21.08.19:023][613]BlueprintLog: New page: Compile Jugador
+[2020.01.23-21.08.19:652][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.08.19:700][640]LogSavePackage: Save=39.84ms
+[2020.01.23-21.08.19:700][640]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Jugador6B15ECEC489563EF53D741B965829EF2.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.08.19:705][640]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.08.21:771][760]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.23-21.08.21:787][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.23-21.08.21:787][760]PIE: New page: PIE session: Nivel1 (Jan 23, 2020, 11:08:21 PM)
+[2020.01.23-21.08.21:787][760]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Nivel1
+[2020.01.23-21.08.21:792][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004922s)
+[2020.01.23-21.08.21:793][760]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.08.21:793][760]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2020.01.23-21.08.21:793][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nivel1.Nivel1 to /Game/UEDPIE_0_Nivel1.Nivel1 (0.005652s)
+[2020.01.23-21.08.21:815][760]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.08.21:835][760]LogInit: FAudioDevice initialized.
+[2020.01.23-21.08.21:865][760]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.23-21.08.21:869][760]LogWorld: Bringing World /Game/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 60) at 2020.01.23-22.08.21
+[2020.01.23-21.08.21:869][760]LogWorld: Bringing up level for play took: 0.001407
+[2020.01.23-21.08.21:871][760]PIE: Info Play in editor start time for /Game/UEDPIE_0_Nivel1 -0.162
+[2020.01.23-21.08.31:838][350]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.23-21.08.31:853][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.23-21.08.31:853][350]PIE: New page: PIE session: Nivel1 (Jan 23, 2020, 11:08:31 PM)
+[2020.01.23-21.08.31:853][350]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Nivel1
+[2020.01.23-21.08.31:858][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005359s)
+[2020.01.23-21.08.31:859][350]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.08.31:859][350]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2020.01.23-21.08.31:859][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nivel1.Nivel1 to /Game/UEDPIE_0_Nivel1.Nivel1 (0.006143s)
+[2020.01.23-21.08.31:880][350]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.08.31:899][350]LogInit: FAudioDevice initialized.
+[2020.01.23-21.08.31:941][350]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.23-21.08.31:949][350]LogWorld: Bringing World /Game/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 60) at 2020.01.23-22.08.31
+[2020.01.23-21.08.31:950][350]LogWorld: Bringing up level for play took: 0.003311
+[2020.01.23-21.08.31:955][350]PIE: Info Play in editor start time for /Game/UEDPIE_0_Nivel1 -0.079
+[2020.01.23-21.08.39:347][786]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.23-21.08.39:361][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.23-21.08.39:362][786]PIE: New page: PIE session: Nivel1 (Jan 23, 2020, 11:08:39 PM)
+[2020.01.23-21.08.39:362][786]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Nivel1
+[2020.01.23-21.08.39:368][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005890s)
+[2020.01.23-21.08.39:368][786]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.23-21.08.39:368][786]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2020.01.23-21.08.39:368][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nivel1.Nivel1 to /Game/UEDPIE_0_Nivel1.Nivel1 (0.006753s)
+[2020.01.23-21.08.39:389][786]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.23-21.08.39:408][786]LogInit: FAudioDevice initialized.
+[2020.01.23-21.08.39:442][786]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.23-21.08.39:445][786]LogWorld: Bringing World /Game/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 60) at 2020.01.23-22.08.39
+[2020.01.23-21.08.39:445][786]LogWorld: Bringing up level for play took: 0.001061
+[2020.01.23-21.08.39:447][786]PIE: Info Play in editor start time for /Game/UEDPIE_0_Nivel1 -0.587
+[2020.01.23-21.15.31:211][151]BlueprintLog: New page: Compile Jugador
+[2020.01.23-21.15.31:218][151]LogBlueprint:Error: [Compiler Jugador] Error The type of  Object  is undetermined.  Connect something to  Cast To Brush  to imply a specific type.
+[2020.01.23-21.15.31:218][151]LogBlueprint:Error: [Compiler Jugador] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.01.23-21.15.31:221][151]LogBlueprint:Error: [Compiler Jugador] Error The type of  Object  is undetermined.  Connect something to  Cast To Brush  to imply a specific type.
+[2020.01.23-21.15.31:221][151]LogBlueprint:Error: [Compiler Jugador] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.01.23-21.15.31:404][151]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Brush  to imply a specific type.
+[2020.01.23-21.15.31:404][151]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.01.23-21.15.31:404][151]LogBlueprint:Warning: [Compiler Jugador] Warning [0901.39] Compile of Jugador failed. 2 Fatal Issue(s) 0 Warning(s) [in 192 ms] (/Game/Jugador.Jugador)
+[2020.01.23-21.15.32:293][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.15.32:343][202]LogSavePackage: Save=39.29ms
+[2020.01.23-21.15.32:343][202]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/JugadorD7C289594B48F45BB86B0E9AA3D26AAA.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.15.32:349][202]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.17.49:204][210]BlueprintLog: New page: Compile Jugador
+[2020.01.23-21.17.49:762][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.17.49:813][234]LogSavePackage: Save=42.53ms
+[2020.01.23-21.17.49:813][234]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/JugadorBD4970A14AFE70C6357B31A5A17A0CF3.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.17.49:819][234]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.23.36:424][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset" SILENT=true
+[2020.01.23-21.23.36:471][897]LogSavePackage: Save=33.63ms
+[2020.01.23-21.23.36:471][897]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Jugador05DE3826448A6804642948BC25FE303B.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset'
+[2020.01.23-21.23.36:474][897]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Jugador.uasset
+[2020.01.23-21.23.40:147][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Nivel1" FILE="C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.23-21.23.40:263][107]LogSavePackage: Save=76.26ms
+[2020.01.23-21.23.40:264][107]LogSavePackage: Moving 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Nivel12068565941451BDA925DC2AC3B6B2A52.tmp' to 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap'
+[2020.01.23-21.23.40:267][107]LogSavePackage:Display: Finished SavePackage C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Nivel1.umap
+[2020.01.23-21.23.42:318][218]Cmd: CLOSE_SLATE_MAINFRAME
+[2020.01.23-21.23.42:402][218]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.23-21.23.42:647][219]Cmd: QUIT_EDITOR
+[2020.01.23-21.23.43:481][219]LogExit: Preparing to exit.
+[2020.01.23-21.23.44:090][219]LogExit: Editor shut down
+[2020.01.23-21.23.44:093][219]LogExit: Transaction tracking system shut down
+[2020.01.23-21.23.44:202][219]LogObj: Freed 0b from 0 cluster array pools.
+[2020.01.23-21.23.44:202][219]LogExit: Object subsystem successfully closed.
+[2020.01.23-21.23.44:229][219]LogD3D11RHI: Shutdown
+[2020.01.23-21.23.44:229][219]LogD3D11RHI: CleanupD3DDevice
+[2020.01.23-21.23.44:353][219]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module LauncherServices (534)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2020.01.23-21.23.44:365][219]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2020.01.23-21.23.44:366][219]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.16/FeaturePacks/' was aborted.
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2020.01.23-21.23.44:367][219]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Collections/' was aborted.
+[2020.01.23-21.23.44:367][219]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Developers/Lucía/Collections/' was aborted.
+[2020.01.23-21.23.44:367][219]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Collections/' was aborted.
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module Media (471)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2020.01.23-21.23.44:367][219]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2020.01.23-21.23.44:368][219]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2020.01.23-21.23.44:844][219]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2020.01.23-21.23.44:845][219]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2020.01.23-21.23.44:900][219]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2020.01.23-21.23.44:916][219]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2020.01.23-21.23.45:068][219]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.01.23-21.23.45:069][219]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.01.23-21.23.45:069][219]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2020.01.23-21.23.45:069][219]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2020.01.23-21.23.45:070][219]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2020.01.23-21.23.45:070][219]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2020.01.23-21.23.45:070][219]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2020.01.23-21.23.45:070][219]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2020.01.23-21.23.45:070][219]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2020.01.23-21.23.45:070][219]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2020.01.23-21.23.45:171][219]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2020.01.23-21.23.45:272][219]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2020.01.23-21.23.45:272][219]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2020.01.23-21.23.45:272][219]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2020.01.23-21.23.45:272][219]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2020.01.23-21.23.45:272][219]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2020.01.23-21.23.45:272][219]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2020.01.23-21.23.45:273][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2020.01.23-21.23.45:273][219]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2020.01.23-21.23.45:273][219]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2020.01.23-21.23.45:273][219]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2020.01.23-21.23.45:276][219]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2020.01.23-21.23.45:278][219]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2020.01.23-21.23.45:278][219]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2020.01.23-21.23.45:278][219]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2020.01.23-21.23.45:278][219]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2020.01.23-21.23.45:278][219]LogModuleManager: Shutting down and abandoning module Core (164)
+[2020.01.23-21.23.45:278][219]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2020.01.23-21.23.45:486][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.01.23-21.23.45:486][219]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/' was aborted.
+[2020.01.23-21.23.45:486][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.01.23-21.23.45:486][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2020.01.23-21.23.45:489][219]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2020.01.23-21.23.45:489][219]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2020.01.23-21.23.45:489][219]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2020.01.23-21.23.45:489][219]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2020.01.23-21.23.45:489][219]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2020.01.23-21.23.45:490][219]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2020.01.23-21.23.45:490][219]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2020.01.23-21.23.45:490][219]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2020.01.23-21.23.45:490][219]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.01.23-21.23.45:567][219]LogDerivedDataCache: Shutdown
+[2020.01.23-21.23.45:567][219]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.01.23-21.23.45:567][219]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.01.23-21.23.45:567][219]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.01.23-21.23.45:567][219]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.01.23-21.23.45:567][219]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.01.23-21.23.45:567][219]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.01.23-21.23.45:568][219]LogOnline:Display: Unloading online subsystem: NULL
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.01.23-21.23.45:568][219]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.01.23-21.23.45:568][219]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.23-21.23.45:568][219]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAAFAA775-4B94-2105-3567-178B4D51D065%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=165e2f5c4cff1d43009568a4f471a84c%7Cf42750306e4242438e0a3807e2bc9746%7Cc74eec28-b152-4f19-ad77-f723a3f06987&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.01.23-21.23.45:598][219]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.01.23-21.23.45:599][219]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.01.23-21.23.45:600][219]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.01.23-21.23.45:602][219]LogExit: Exiting.
+[2020.01.23-21.23.45:613][219]Log file closed, 01/23/20 22:23:45
