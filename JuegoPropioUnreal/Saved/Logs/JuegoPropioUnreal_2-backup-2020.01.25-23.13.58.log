@@ -1,0 +1,1532 @@
+﻿Log file open, 01/25/20 23:12:22
+LogInit:Display: Running engine for game: JuegoPropioUnreal
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1909463784) SRandInit(1909463784).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110696
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  /Temp/Autosaves/Game/UEDPCNivel1 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: D:/UnrealEngine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.25-22.12.23:327][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.25-22.12.23:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.25-22.12.23:331][  0]LogInit: Computer: LAPTOP-IAG928L3
+[2020.01.25-22.12.23:331][  0]LogInit: User: Lucía
+[2020.01.25-22.12.23:331][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.25-22.12.23:331][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.25-22.12.23:331][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.01.25-22.12.23:331][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.12.23:331][  0]LogMemory: Process Physical Memory: 274.39 MB used, 274.39 MB peak
+[2020.01.25-22.12.23:331][  0]LogMemory: Process Virtual Memory: 262.46 MB used, 262.46 MB peak
+[2020.01.25-22.12.23:331][  0]LogMemory: Physical Memory: 14372.02 MB used,  18315.26 MB free, 32687.28 MB total
+[2020.01.25-22.12.23:331][  0]LogMemory: Virtual Memory: 4749.39 MB used,  18315.26 MB free, 134217728.00 MB total
+[2020.01.25-22.12.23:422][  0]LogInit: Using OS detected language (es-ES).
+[2020.01.25-22.12.23:422][  0]LogInit: Using OS detected locale (es-ES).
+[2020.01.25-22.12.23:428][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2020.01.25-22.12.24:130][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.25-22.12.24:219][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.01.25-22.12.24:219][  0]LogD3D11RHI:       8081/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.25-22.12.24:224][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.25-22.12.24:224][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.25-22.12.24:224][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.25-22.12.24:234][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.25-22.12.24:234][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.25-22.12.24:234][  0]LogWindows: EnumDisplayDevices:
+[2020.01.25-22.12.24:234][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.01.25-22.12.24:235][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.25-22.12.24:235][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.25-22.12.24:235][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.25-22.12.24:235][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.25-22.12.24:235][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.01.25-22.12.24:235][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.25-22.12.24:235][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.25-22.12.24:235][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.25-22.12.24:289][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.25-22.12.24:303][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.25-22.12.24:347][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Intermediate/Shaders/WorkingDirectory/11240/).
+[2020.01.25-22.12.24:347][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lucía/AppData/Local/Temp/UnrealShaderWorkingDir/13E1EEE5410A0D4F2AC60EB00CB209C1/'.
+[2020.01.25-22.12.24:347][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.25-22.12.25:888][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.25-22.12.25:947][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.25-22.12.26:006][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.25-22.12.26:063][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.25-22.12.26:063][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.25-22.12.26:774][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.25-22.12.26:858][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.25-22.12.26:858][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.25-22.12.26:858][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.25-22.12.26:858][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.25-22.12.26:858][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.25-22.12.26:858][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.25-22.12.26:876][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.25-22.12.26:889][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lucía/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.25-22.12.26:904][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.25-22.12.26:904][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.25-22.12.26:905][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.25-22.12.26:905][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.25-22.12.27:362][  0]LogAssetRegistry: FAssetRegistry took 0.0056 seconds to start up
+[2020.01.25-22.12.27:373][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.010292 seconds
+[2020.01.25-22.12.27:506][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.25-22.12.27:574][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2020.01.25-22.12.27:759][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.25-22.12.27:822][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.25-22.12.27:911][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.25-22.12.27:911][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.25-22.12.27:911][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.25-22.12.28:546][  0]LogNetVersion: JuegoPropioUnreal , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3708460046)
+[2020.01.25-22.12.28:622][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.25-22.12.30:087][  0]LogMoviePlayer: Initializing movie player
+[2020.01.25-22.12.30:482][  0]LogCollectionManager: Loaded 0 collections in 0.001479 seconds
+[2020.01.25-22.12.30:538][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Collections/' took 0.01s
+[2020.01.25-22.12.30:538][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Developers/Lucía/Collections/' took 0.01s
+[2020.01.25-22.12.30:538][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Collections/' took 0.01s
+[2020.01.25-22.12.30:538][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2020.01.25-22.12.30:538][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2020.01.25-22.12.30:793][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.25-22.12.30:843][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.25-22.12.31:470][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.01.25-22.12.31:470][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.01.25-22.12.31:541][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.01.25-22.12.31:963][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.25-22.12.32:573][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2020.01.25-22.12.32:573][  0]LogUObjectAllocator: 8398840 out of 0 bytes used by permanent object pool.
+[2020.01.25-22.12.32:573][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.25-22.12.32:711][  0]LogEngine: Initializing Engine...
+[2020.01.25-22.12.32:712][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.25-22.12.32:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.25-22.12.32:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.25-22.12.32:914][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.25-22.12.32:948][  0]LogInit: FAudioDevice initialized.
+[2020.01.25-22.12.32:968][  0]LogInit: Texture streaming: Enabled
+[2020.01.25-22.12.32:989][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.25-22.12.33:321][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2020.01.25-22.12.33:321][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2020.01.25-22.12.33:632][  0]LogInit:Display: Game Engine Initialized.
+[2020.01.25-22.12.33:843][  0]LogInit:Display: Starting Game.
+[2020.01.25-22.12.33:843][  0]LogNet: Browse: /Temp/Autosaves/Game/UEDPCNivel1?Name=Player
+[2020.01.25-22.12.33:843][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/UEDPCNivel1?Name=Player
+[2020.01.25-22.12.33:864][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.12.33:864][  0]LogMemory: Process Physical Memory: 787.20 MB used, 890.54 MB peak
+[2020.01.25-22.12.33:864][  0]LogMemory: Process Virtual Memory: 904.88 MB used, 959.57 MB peak
+[2020.01.25-22.12.33:864][  0]LogMemory: Physical Memory: 14841.95 MB used,  17845.33 MB free, 32687.28 MB total
+[2020.01.25-22.12.33:864][  0]LogMemory: Virtual Memory: 5716.84 MB used,  17845.33 MB free, 134217728.00 MB total
+[2020.01.25-22.12.33:864][  0]LogMemory: 
+[2020.01.25-22.12.33:864][  0]Allocator Stats for TBB: (not implemented)
+[2020.01.25-22.12.33:983][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.33:990][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.12.33:990][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.12.33:990][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.12.33:990][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.12.33:991][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.12.33:991][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.12.33:991][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.12.33:992][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.33:994][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0012,95] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 8 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.12.33:994][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0012,95] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.12.33:994][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0012,95] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.12.34:293][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.12.34:293][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.12.34:293][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.12.34:293][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.12.34:293][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.12.34:294][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.12.34:294][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.12.34:295][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:297][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0013,25] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 10 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.12.34:297][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0013,25] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.12.34:298][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0013,25] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:470][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:471][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:472][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.12.34:768][  0]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.25-22.12.34:812][  0]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.25-22.12.34:831][  0]LogWorld: Bringing World /Temp/Autosaves/Game/UEDPCNivel1.Nivel1 up for play (max tick rate 0) at 2020.01.25-23.12.34
+[2020.01.25-22.12.34:834][  0]LogWorld: Bringing up level for play took: 0.020281
+[2020.01.25-22.12.34:841][  0]LogLoad: Took 0.998071 seconds to LoadMap(/Temp/Autosaves/Game/UEDPCNivel1)
+[2020.01.25-22.12.35:118][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2020.01.25-22.12.35:118][  0]LogLoad: (Engine Initialization) Total time: 14.07 seconds
+[2020.01.25-22.12.35:118][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
+[2020.01.25-22.12.35:118][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.25-22.12.35:136][  0]LogOcInput: OculusInput pre-init called
+[2020.01.25-22.12.35:136][  0]LogHMD: Starting GearVRController plugin
+[2020.01.25-22.12.37:748][161]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:763][162]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:779][163]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:795][164]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:811][165]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:828][166]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:844][167]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:859][168]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:875][169]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:891][170]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:907][171]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:924][172]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:941][173]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:957][174]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:973][175]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.37:989][176]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:005][177]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:022][178]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:038][179]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:055][180]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:069][181]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:086][182]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:102][183]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:118][184]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:134][185]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:150][186]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:166][187]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:182][188]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:198][189]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:214][190]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:231][191]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:247][192]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:263][193]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:279][194]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:295][195]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:311][196]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:327][197]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:343][198]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:359][199]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:375][200]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:392][201]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:408][202]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:424][203]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:440][204]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:456][205]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:473][206]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:489][207]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:505][208]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:521][209]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:537][210]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:553][211]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:569][212]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:585][213]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:601][214]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:617][215]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:634][216]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:650][217]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:667][218]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:685][219]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:699][220]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:715][221]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:731][222]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:747][223]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:763][224]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:779][225]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:795][226]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:813][227]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:829][228]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:845][229]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:861][230]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:877][231]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:898][232]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:912][233]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:928][234]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:943][235]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:960][236]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:976][237]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.38:992][238]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:008][239]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:024][240]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:041][241]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:057][242]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:073][243]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:089][244]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:106][245]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:121][246]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:137][247]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:154][248]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:170][249]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:187][250]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:203][251]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:219][252]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:235][253]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:251][254]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:267][255]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:284][256]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:301][257]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:316][258]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:331][259]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:348][260]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:363][261]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:380][262]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:396][263]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:412][264]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:428][265]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:444][266]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:461][267]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:477][268]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:493][269]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:509][270]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:525][271]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:541][272]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:557][273]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:573][274]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:589][275]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:605][276]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:622][277]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:638][278]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:655][279]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:671][280]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:687][281]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:703][282]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:720][283]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:735][284]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:750][285]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:766][286]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:782][287]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:799][288]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:815][289]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:832][290]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:848][291]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:864][292]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:881][293]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:897][294]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:915][295]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:929][296]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:945][297]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:961][298]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:976][299]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.39:993][300]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:008][301]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:025][302]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:041][303]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:057][304]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:073][305]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:090][306]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:106][307]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:123][308]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:138][309]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:154][310]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:170][311]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:186][312]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:203][313]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:219][314]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:236][315]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:252][316]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:268][317]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:284][318]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:300][319]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:317][320]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:332][321]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:347][322]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:364][323]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:379][324]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:396][325]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:412][326]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:428][327]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:444][328]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:460][329]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:477][330]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:493][331]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:509][332]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:525][333]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:541][334]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:558][335]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:574][336]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:590][337]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:607][338]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:623][339]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:639][340]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:655][341]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:671][342]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:687][343]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:704][344]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:723][345]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:736][346]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:752][347]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:768][348]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:784][349]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:800][350]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:816][351]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:833][352]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:849][353]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:865][354]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:881][355]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:897][356]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:914][357]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:929][358]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:946][359]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:962][360]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:978][361]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.40:994][362]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:011][363]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:028][364]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:044][365]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:060][366]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:076][367]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:092][368]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:109][369]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:125][370]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:142][371]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:156][372]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:171][373]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:188][374]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:204][375]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:220][376]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:236][377]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:253][378]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:269][379]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:285][380]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:302][381]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:318][382]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:335][383]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:353][384]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:367][385]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:383][386]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:399][387]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:415][388]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:431][389]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:447][390]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:463][391]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:480][392]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:496][393]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:512][394]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:528][395]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:545][396]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:562][397]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:576][398]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:593][399]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:609][400]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:625][401]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:642][402]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:658][403]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:674][404]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:690][405]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:706][406]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:722][407]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:739][408]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:754][409]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:770][410]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:786][411]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:802][412]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:818][413]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:834][414]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:851][415]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:867][416]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:883][417]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:899][418]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:916][419]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:933][420]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:949][421]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:965][422]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:981][423]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.41:996][424]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:012][425]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:029][426]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:045][427]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:061][428]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:077][429]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:093][430]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:109][431]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:125][432]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:142][433]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:157][434]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:180][435]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:194][436]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:210][437]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:226][438]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:242][439]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:258][440]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:274][441]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:291][442]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:307][443]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:323][444]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:339][445]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:355][446]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:372][447]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:387][448]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:404][449]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:419][450]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:436][451]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:453][452]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:468][453]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:485][454]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:501][455]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:518][456]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:533][457]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:549][458]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:566][459]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:582][460]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:598][461]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:614][462]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:629][463]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:645][464]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:661][465]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:677][466]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:694][467]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:709][468]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:726][469]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:743][470]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:759][471]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:775][472]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:794][473]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:808][474]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:824][475]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:840][476]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:856][477]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:872][478]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:888][479]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:905][480]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:921][481]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:940][482]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:955][483]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:970][484]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.42:986][485]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:002][486]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:017][487]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:033][488]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:049][489]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:066][490]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:082][491]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:098][492]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:114][493]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:131][494]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:148][495]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:164][496]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:180][497]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:196][498]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:214][499]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:228][500]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:244][501]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:260][502]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:276][503]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:292][504]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:308][505]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:325][506]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:340][507]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:357][508]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:373][509]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:389][510]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:408][511]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:425][512]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:440][513]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:456][514]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:472][515]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:488][516]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:505][517]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:521][518]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:536][519]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:552][520]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:568][521]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:586][522]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:602][523]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:619][524]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:635][525]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:649][526]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:666][527]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:682][528]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:698][529]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:714][530]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:730][531]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:746][532]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:763][533]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:780][534]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:796][535]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:812][536]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:830][537]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:845][538]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:860][539]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:875][540]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:891][541]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:908][542]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:924][543]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:940][544]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:957][545]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:973][546]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.43:989][547]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:006][548]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:022][549]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:040][550]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:058][551]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:070][552]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:085][553]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:102][554]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:118][555]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:134][556]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:150][557]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:166][558]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:182][559]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:198][560]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:215][561]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:231][562]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:247][563]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:263][564]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:280][565]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:296][566]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:312][567]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:328][568]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:344][569]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:361][570]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:379][571]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:392][572]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:408][573]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:424][574]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:441][575]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:456][576]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:472][577]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:488][578]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:504][579]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:521][580]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:537][581]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:553][582]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:569][583]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:585][584]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:602][585]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:618][586]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:635][587]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:651][588]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:667][589]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:684][590]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:701][591]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:717][592]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:733][593]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:749][594]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:764][595]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:781][596]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:797][597]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:814][598]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:830][599]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:850][600]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:867][601]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:881][602]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:897][603]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:913][604]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:929][605]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:945][606]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:962][607]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:979][608]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.44:994][609]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:010][610]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:027][611]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:044][612]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:059][613]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:075][614]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:091][615]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:107][616]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:123][617]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:138][618]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:154][619]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:171][620]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:187][621]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:204][622]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:219][623]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:236][624]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:252][625]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:268][626]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:284][627]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:301][628]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:317][629]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:333][630]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:349][631]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:365][632]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:382][633]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:397][634]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:413][635]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:430][636]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:446][637]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:466][638]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:480][639]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:496][640]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:512][641]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:529][642]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:547][643]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:563][644]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:579][645]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:595][646]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:611][647]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:627][648]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:643][649]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:661][650]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:681][651]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:695][652]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:711][653]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:727][654]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:743][655]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:760][656]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:776][657]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:792][658]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:808][659]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:824][660]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:840][661]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:856][662]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:874][663]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:890][664]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:905][665]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:922][666]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:939][667]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:955][668]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:971][669]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.45:987][670]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:003][671]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:019][672]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:035][673]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:051][674]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:067][675]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:084][676]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:099][677]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:115][678]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:131][679]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:147][680]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:163][681]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:179][682]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:196][683]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:213][684]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:229][685]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:245][686]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:261][687]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:277][688]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:294][689]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:310][690]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:325][691]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:341][692]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:356][693]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:373][694]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:389][695]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:405][696]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:421][697]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:437][698]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:453][699]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:470][700]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:487][701]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:502][702]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:518][703]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:535][704]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:551][705]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:567][706]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:583][707]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:600][708]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:616][709]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:632][710]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:649][711]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:666][712]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:682][713]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:698][714]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:714][715]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:730][716]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:745][717]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:760][718]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:777][719]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:792][720]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:809][721]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:825][722]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:841][723]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:857][724]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:873][725]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:890][726]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:910][727]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:925][728]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:941][729]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:957][730]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:973][731]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.46:989][732]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:005][733]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:021][734]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:038][735]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:053][736]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:070][737]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:086][738]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:102][739]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:118][740]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:135][741]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:149][742]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:166][743]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:182][744]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:198][745]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:215][746]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:231][747]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:248][748]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:264][749]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:280][750]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:296][751]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:316][752]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:330][753]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:346][754]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:361][755]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:377][756]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:393][757]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:409][758]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:426][759]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:442][760]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:458][761]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:474][762]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:490][763]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:507][764]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:523][765]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:539][766]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:555][767]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:571][768]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:587][769]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:604][770]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:620][771]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:636][772]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:653][773]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:669][774]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:685][775]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:701][776]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:719][777]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:733][778]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:751][779]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:765][780]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:780][781]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:797][782]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:813][783]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:829][784]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:845][785]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:862][786]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:877][787]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:895][788]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:910][789]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:927][790]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:943][791]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:959][792]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:974][793]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.47:991][794]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:008][795]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:024][796]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:040][797]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:056][798]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:072][799]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:088][800]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:104][801]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:120][802]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:136][803]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:152][804]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:168][805]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:185][806]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:200][807]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:216][808]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:233][809]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:249][810]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:265][811]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:282][812]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:298][813]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:314][814]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:330][815]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:348][816]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:364][817]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:380][818]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:395][819]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:411][820]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:427][821]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:443][822]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:459][823]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:475][824]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:492][825]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:508][826]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:525][827]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:541][828]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:560][829]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:574][830]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:590][831]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:606][832]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:623][833]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:639][834]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:655][835]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:671][836]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:687][837]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:703][838]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:719][839]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:736][840]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:753][841]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:769][842]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:785][843]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:801][844]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:817][845]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:834][846]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:851][847]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:867][848]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:883][849]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:899][850]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:915][851]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:930][852]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:946][853]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:963][854]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:980][855]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.48:995][856]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:011][857]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:027][858]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:043][859]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:059][860]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:075][861]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:091][862]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:107][863]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:124][864]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:141][865]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:157][866]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:173][867]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:193][868]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:209][869]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:225][870]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:241][871]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:257][872]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:273][873]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:289][874]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:304][875]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:321][876]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:338][877]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:354][878]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:370][879]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:387][880]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:402][881]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:418][882]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:434][883]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:450][884]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:467][885]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:483][886]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:499][887]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:515][888]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:531][889]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:547][890]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:563][891]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:580][892]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:597][893]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:612][894]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:628][895]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:644][896]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:660][897]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:677][898]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:693][899]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:708][900]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:724][901]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:741][902]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:757][903]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:773][904]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:789][905]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:805][906]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:821][907]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:837][908]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:854][909]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:870][910]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:887][911]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:903][912]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:919][913]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:935][914]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:952][915]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:968][916]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.49:984][917]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:000][918]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:017][919]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:032][920]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:047][921]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:064][922]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:080][923]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:096][924]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:112][925]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:128][926]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:144][927]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:160][928]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:176][929]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:192][930]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:208][931]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:224][932]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:240][933]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:257][934]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:274][935]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:290][936]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:306][937]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:323][938]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:338][939]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:353][940]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:370][941]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:386][942]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:404][943]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:420][944]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:436][945]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:452][946]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:468][947]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:485][948]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:500][949]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:518][950]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:533][951]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:549][952]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:565][953]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:582][954]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:599][955]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:614][956]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:630][957]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:646][958]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:662][959]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:678][960]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:693][961]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:709][962]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:726][963]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:742][964]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:758][965]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:774][966]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:790][967]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:807][968]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:823][969]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:839][970]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:855][971]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:871][972]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:888][973]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:904][974]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:920][975]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:936][976]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:952][977]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:969][978]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.50:985][979]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:001][980]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:017][981]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:033][982]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:049][983]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:064][984]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:081][985]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:097][986]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:113][987]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:129][988]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:145][989]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:161][990]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:177][991]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:194][992]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:210][993]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:226][994]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:242][995]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:258][996]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:274][997]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:291][998]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:307][999]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:323][  0]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:339][  1]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:355][  2]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:372][  3]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:388][  4]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:404][  5]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:420][  6]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:437][  7]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:452][  8]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:470][  9]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:484][ 10]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:501][ 11]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:516][ 12]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:532][ 13]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:549][ 14]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:565][ 15]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:581][ 16]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:597][ 17]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:614][ 18]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:630][ 19]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:646][ 20]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:662][ 21]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:678][ 22]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:694][ 23]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:711][ 24]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:727][ 25]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:742][ 26]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:758][ 27]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:774][ 28]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:790][ 29]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:806][ 30]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:823][ 31]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:840][ 32]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:855][ 33]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:871][ 34]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:887][ 35]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:904][ 36]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:920][ 37]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:936][ 38]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:952][ 39]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:969][ 40]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.51:985][ 41]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:001][ 42]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:017][ 43]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:033][ 44]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:049][ 45]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:065][ 46]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:081][ 47]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:097][ 48]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:113][ 49]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:129][ 50]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:146][ 51]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:162][ 52]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:178][ 53]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:194][ 54]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:210][ 55]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:227][ 56]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:243][ 57]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:259][ 58]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:275][ 59]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:291][ 60]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:307][ 61]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:323][ 62]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:339][ 63]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:356][ 64]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:372][ 65]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:388][ 66]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:403][ 67]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:419][ 68]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:435][ 69]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:452][ 70]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:468][ 71]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:484][ 72]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:500][ 73]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:516][ 74]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:532][ 75]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:549][ 76]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:565][ 77]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:581][ 78]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:598][ 79]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:614][ 80]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:630][ 81]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:646][ 82]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:662][ 83]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:678][ 84]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:694][ 85]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:710][ 86]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:727][ 87]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:743][ 88]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:759][ 89]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:775][ 90]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:790][ 91]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:807][ 92]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:824][ 93]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:839][ 94]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:855][ 95]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:871][ 96]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:887][ 97]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:903][ 98]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:920][ 99]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:936][100]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:952][101]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:968][102]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.52:984][103]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:000][104]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:017][105]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:033][106]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:049][107]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:065][108]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:082][109]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:098][110]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:114][111]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:130][112]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:147][113]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:163][114]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:178][115]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:194][116]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:210][117]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:226][118]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:243][119]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:259][120]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:276][121]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:292][122]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:307][123]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:323][124]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:339][125]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:355][126]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:371][127]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:388][128]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:404][129]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:420][130]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:436][131]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:453][132]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:469][133]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:487][134]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:503][135]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:517][136]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:534][137]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:550][138]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:566][139]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:582][140]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:598][141]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:614][142]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:630][143]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:647][144]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:663][145]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:679][146]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:698][147]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:712][148]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:728][149]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:744][150]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:761][151]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:777][152]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:793][153]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:809][154]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:826][155]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:842][156]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:858][157]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:874][158]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:890][159]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:907][160]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:922][161]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:939][162]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:955][163]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:971][164]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.53:986][165]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:002][166]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:018][167]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:035][168]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:051][169]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:067][170]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:084][171]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:100][172]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:116][173]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:132][174]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:148][175]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:164][176]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:180][177]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:196][178]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:212][179]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:228][180]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:244][181]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:260][182]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:276][183]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:294][184]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:310][185]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:325][186]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:341][187]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:357][188]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:373][189]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:390][190]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:406][191]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:422][192]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:438][193]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:454][194]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:471][195]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:487][196]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:503][197]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:519][198]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:535][199]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:551][200]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:567][201]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:583][202]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:599][203]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:615][204]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:632][205]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:648][206]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:664][207]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:680][208]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:696][209]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:713][210]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:729][211]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:745][212]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:761][213]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:777][214]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:793][215]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:810][216]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:825][217]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:842][218]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:858][219]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:874][220]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:890][221]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:906][222]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:922][223]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:938][224]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:954][225]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:970][226]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.54:986][227]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:003][228]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:019][229]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:035][230]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:051][231]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:067][232]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:084][233]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:100][234]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:116][235]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:132][236]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:148][237]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:165][238]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:180][239]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:196][240]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:212][241]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:228][242]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:245][243]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:261][244]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:277][245]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:294][246]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:310][247]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:327][248]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:343][249]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:359][250]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:374][251]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:390][252]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:406][253]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:422][254]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:438][255]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:455][256]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:471][257]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:487][258]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:503][259]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:519][260]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:535][261]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:552][262]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:568][263]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:585][264]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:601][265]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:617][266]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:633][267]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:649][268]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:665][269]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:681][270]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:697][271]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:714][272]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:730][273]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:746][274]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:762][275]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:778][276]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:794][277]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:810][278]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:826][279]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:842][280]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:858][281]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:874][282]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:890][283]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:906][284]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:922][285]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:938][286]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:955][287]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:971][288]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.55:987][289]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.56:003][290]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.56:020][291]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.56:036][292]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.12.56:159][293]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.25-22.12.56:163][293]LogEngine: All Windows Closed
+[2020.01.25-22.12.56:163][293]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.01.25-22.12.56:735][294]LogExit: Preparing to exit.
+[2020.01.25-22.12.56:735][294]LogMoviePlayer: Shutting down movie player
+[2020.01.25-22.12.58:010][294]LogExit: Game engine shut down
+[2020.01.25-22.12.58:067][294]LogObj: Freed 0b from 0 cluster array pools.
+[2020.01.25-22.12.58:067][294]LogExit: Object subsystem successfully closed.
+[2020.01.25-22.12.58:096][294]LogD3D11RHI: Shutdown
+[2020.01.25-22.12.58:096][294]LogD3D11RHI: CleanupD3DDevice
+[2020.01.25-22.12.58:160][294]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (296)
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module SequenceRecorder (294)
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module AutomationController (292)
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module AutomationWorker (290)
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module AIModule (288)
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module GameplayDebugger (287)
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module AITestSuite (285)
+[2020.01.25-22.12.58:167][294]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (282)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (280)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (278)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module Media (277)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module CharacterAI (274)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module SessionServices (272)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (270)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (268)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module MovieScene (266)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module GeometryCache (264)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (263)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module Niagara (260)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module NiagaraEditor (259)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (256)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module PortalServices (254)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module PortalRpc (252)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module MessagingRpc (250)
+[2020.01.25-22.12.58:168][294]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module SteamVR (242)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module OculusInput (236)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module CableComponent (230)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module HotReload (217)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module SourceControl (209)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
+[2020.01.25-22.12.58:189][294]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
+[2020.01.25-22.12.58:291][294]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
+[2020.01.25-22.12.58:810][294]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
+[2020.01.25-22.12.58:810][294]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2020.01.25-22.12.58:810][294]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
+[2020.01.25-22.12.58:810][294]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
+[2020.01.25-22.12.58:810][294]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
+[2020.01.25-22.12.58:810][294]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2020.01.25-22.12.58:810][294]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Collections/' was aborted.
+[2020.01.25-22.12.58:810][294]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Developers/Lucía/Collections/' was aborted.
+[2020.01.25-22.12.58:811][294]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Collections/' was aborted.
+[2020.01.25-22.12.58:811][294]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
+[2020.01.25-22.12.58:811][294]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
+[2020.01.25-22.12.58:811][294]LogModuleManager: Shutting down and abandoning module Paper2D (176)
+[2020.01.25-22.12.58:811][294]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
+[2020.01.25-22.12.58:811][294]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2020.01.25-22.12.58:813][294]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module Core (120)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2020.01.25-22.12.58:815][294]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2020.01.25-22.12.58:816][294]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2020.01.25-22.12.58:816][294]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2020.01.25-22.12.58:816][294]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2020.01.25-22.12.58:816][294]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2020.01.25-22.12.58:816][294]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2020.01.25-22.12.58:916][294]LogDerivedDataCache: Shutdown
+[2020.01.25-22.12.58:916][294]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.01.25-22.12.58:917][294]LogOnline:Display: Unloading online subsystem: NULL
+[2020.01.25-22.12.58:917][294]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.01.25-22.12.58:918][294]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.01.25-22.12.58:920][294]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.01.25-22.12.58:923][294]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.01.25-22.12.58:926][294]LogExit: Exiting.
+[2020.01.25-22.12.58:929][294]Log file closed, 01/25/20 23:12:58

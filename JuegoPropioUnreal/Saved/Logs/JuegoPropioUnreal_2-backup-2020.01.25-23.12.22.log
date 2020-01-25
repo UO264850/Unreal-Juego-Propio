@@ -1,0 +1,1113 @@
+﻿Log file open, 01/25/20 23:02:28
+LogInit:Display: Running engine for game: JuegoPropioUnreal
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(259106772) SRandInit(259106772).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.115994
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  /Temp/Autosaves/Game/UEDPCNivel1 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: D:/UnrealEngine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.25-22.02.28:697][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.25-22.02.28:697][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.25-22.02.28:702][  0]LogInit: Computer: LAPTOP-IAG928L3
+[2020.01.25-22.02.28:702][  0]LogInit: User: Lucía
+[2020.01.25-22.02.28:702][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.25-22.02.28:702][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.25-22.02.28:702][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.01.25-22.02.28:702][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.02.28:702][  0]LogMemory: Process Physical Memory: 274.51 MB used, 274.51 MB peak
+[2020.01.25-22.02.28:702][  0]LogMemory: Process Virtual Memory: 262.36 MB used, 262.36 MB peak
+[2020.01.25-22.02.28:702][  0]LogMemory: Physical Memory: 13098.17 MB used,  19589.11 MB free, 32687.28 MB total
+[2020.01.25-22.02.28:702][  0]LogMemory: Virtual Memory: 4749.39 MB used,  19589.11 MB free, 134217728.00 MB total
+[2020.01.25-22.02.28:794][  0]LogInit: Using OS detected language (es-ES).
+[2020.01.25-22.02.28:794][  0]LogInit: Using OS detected locale (es-ES).
+[2020.01.25-22.02.28:800][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2020.01.25-22.02.29:491][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.25-22.02.29:572][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.01.25-22.02.29:572][  0]LogD3D11RHI:       8081/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.25-22.02.29:576][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.25-22.02.29:576][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.25-22.02.29:576][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.25-22.02.29:589][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.25-22.02.29:589][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.25-22.02.29:589][  0]LogWindows: EnumDisplayDevices:
+[2020.01.25-22.02.29:589][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.01.25-22.02.29:589][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.25-22.02.29:590][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.25-22.02.29:590][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.25-22.02.29:590][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.25-22.02.29:590][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.01.25-22.02.29:590][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.25-22.02.29:590][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.25-22.02.29:590][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.25-22.02.29:644][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.25-22.02.29:658][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.25-22.02.29:704][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Intermediate/Shaders/WorkingDirectory/3592/).
+[2020.01.25-22.02.29:705][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lucía/AppData/Local/Temp/UnrealShaderWorkingDir/7B8EA97B4654222683A8D0A2B3C3AF5D/'.
+[2020.01.25-22.02.29:705][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.25-22.02.32:829][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.25-22.02.32:895][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.25-22.02.32:952][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.25-22.02.33:002][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.25-22.02.33:002][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.25-22.02.33:635][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.25-22.02.33:723][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.25-22.02.33:723][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.25-22.02.33:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.25-22.02.33:723][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.25-22.02.33:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.25-22.02.33:723][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.25-22.02.33:740][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.25-22.02.33:753][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lucía/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.25-22.02.33:763][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.25-22.02.33:763][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.25-22.02.33:764][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.25-22.02.33:764][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.25-22.02.34:181][  0]LogAssetRegistry: FAssetRegistry took 0.0044 seconds to start up
+[2020.01.25-22.02.34:191][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.009235 seconds
+[2020.01.25-22.02.34:317][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.25-22.02.34:387][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2020.01.25-22.02.34:591][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.25-22.02.34:666][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.25-22.02.34:769][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.25-22.02.34:769][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.25-22.02.34:769][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.25-22.02.35:430][  0]LogNetVersion: JuegoPropioUnreal , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3708460046)
+[2020.01.25-22.02.35:527][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.25-22.02.36:935][  0]LogMoviePlayer: Initializing movie player
+[2020.01.25-22.02.37:337][  0]LogCollectionManager: Loaded 0 collections in 0.001124 seconds
+[2020.01.25-22.02.37:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Collections/' took 0.01s
+[2020.01.25-22.02.37:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Developers/Lucía/Collections/' took 0.01s
+[2020.01.25-22.02.37:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Collections/' took 0.01s
+[2020.01.25-22.02.37:412][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2020.01.25-22.02.37:412][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2020.01.25-22.02.37:638][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.25-22.02.37:690][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.25-22.02.38:230][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.01.25-22.02.38:230][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.01.25-22.02.38:291][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.01.25-22.02.38:661][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.25-22.02.39:246][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2020.01.25-22.02.39:246][  0]LogUObjectAllocator: 8398848 out of 0 bytes used by permanent object pool.
+[2020.01.25-22.02.39:246][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.25-22.02.39:385][  0]LogEngine: Initializing Engine...
+[2020.01.25-22.02.39:386][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.25-22.02.39:571][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.25-22.02.39:571][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.25-22.02.39:585][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.25-22.02.39:615][  0]LogInit: FAudioDevice initialized.
+[2020.01.25-22.02.39:636][  0]LogInit: Texture streaming: Enabled
+[2020.01.25-22.02.39:657][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.25-22.02.39:959][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2020.01.25-22.02.39:959][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2020.01.25-22.02.40:214][  0]LogInit:Display: Game Engine Initialized.
+[2020.01.25-22.02.40:404][  0]LogInit:Display: Starting Game.
+[2020.01.25-22.02.40:404][  0]LogNet: Browse: /Temp/Autosaves/Game/UEDPCNivel1?Name=Player
+[2020.01.25-22.02.40:405][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/UEDPCNivel1?Name=Player
+[2020.01.25-22.02.40:424][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.02.40:424][  0]LogMemory: Process Physical Memory: 789.36 MB used, 890.70 MB peak
+[2020.01.25-22.02.40:424][  0]LogMemory: Process Virtual Memory: 915.95 MB used, 967.77 MB peak
+[2020.01.25-22.02.40:424][  0]LogMemory: Physical Memory: 13653.77 MB used,  19033.52 MB free, 32687.28 MB total
+[2020.01.25-22.02.40:424][  0]LogMemory: Virtual Memory: 5725.90 MB used,  19033.52 MB free, 134217728.00 MB total
+[2020.01.25-22.02.40:424][  0]LogMemory: 
+[2020.01.25-22.02.40:424][  0]Allocator Stats for TBB: (not implemented)
+[2020.01.25-22.02.40:537][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.40:544][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.40:544][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.40:544][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.40:544][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.40:544][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.40:544][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.40:544][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.40:545][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.40:547][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0014,04] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 8 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.40:548][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0014,04] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.40:548][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0014,04] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.40:813][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.40:813][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.40:813][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.40:813][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.40:813][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.40:813][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.40:814][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.40:814][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.40:817][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0014,31] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 8 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.40:817][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0014,31] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.40:817][  0]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0014,31] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.41:064][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:064][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:064][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:064][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:065][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:066][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.41:263][  0]LogAIModule: Creating AISystem for world Nivel1
+[2020.01.25-22.02.41:296][  0]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.25-22.02.41:315][  0]LogWorld: Bringing World /Temp/Autosaves/Game/UEDPCNivel1.Nivel1 up for play (max tick rate 0) at 2020.01.25-23.02.41
+[2020.01.25-22.02.41:318][  0]LogWorld: Bringing up level for play took: 0.019212
+[2020.01.25-22.02.41:323][  0]LogLoad: Took 0.918040 seconds to LoadMap(/Temp/Autosaves/Game/UEDPCNivel1)
+[2020.01.25-22.02.41:575][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2020.01.25-22.02.41:575][  0]LogLoad: (Engine Initialization) Total time: 15.07 seconds
+[2020.01.25-22.02.41:575][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2020.01.25-22.02.41:575][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.25-22.02.41:592][  0]LogOcInput: OculusInput pre-init called
+[2020.01.25-22.02.41:592][  0]LogHMD: Starting GearVRController plugin
+[2020.01.25-22.02.41:610][  1]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:646][  2]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:662][  3]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:678][  4]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:694][  5]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:711][  6]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:726][  7]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:743][  8]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:759][  9]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:775][ 10]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:791][ 11]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:806][ 12]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:822][ 13]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:839][ 14]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:855][ 15]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:871][ 16]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:887][ 17]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:903][ 18]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:919][ 19]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:935][ 20]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:952][ 21]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:968][ 22]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.41:984][ 23]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:000][ 24]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:017][ 25]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:033][ 26]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:049][ 27]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:065][ 28]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:082][ 29]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:097][ 30]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:113][ 31]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:130][ 32]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:146][ 33]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:162][ 34]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:178][ 35]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:193][ 36]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:210][ 37]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:225][ 38]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:242][ 39]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:258][ 40]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:274][ 41]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:291][ 42]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:306][ 43]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:323][ 44]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:339][ 45]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:355][ 46]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:371][ 47]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:387][ 48]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:403][ 49]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:420][ 50]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:436][ 51]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:452][ 52]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:468][ 53]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:484][ 54]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:501][ 55]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:518][ 56]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:534][ 57]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:551][ 58]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:565][ 59]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:581][ 60]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:597][ 61]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:613][ 62]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:629][ 63]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:645][ 64]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:662][ 65]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:678][ 66]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:696][ 67]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:713][ 68]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:728][ 69]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:745][ 70]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:762][ 71]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:775][ 72]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:791][ 73]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:808][ 74]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:824][ 75]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:840][ 76]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:856][ 77]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:872][ 78]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:888][ 79]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:904][ 80]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:921][ 81]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:937][ 82]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:954][ 83]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:969][ 84]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.42:986][ 85]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:002][ 86]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:018][ 87]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:033][ 88]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:049][ 89]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:065][ 90]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:083][ 91]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:100][ 92]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:116][ 93]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:131][ 94]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:147][ 95]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:163][ 96]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:179][ 97]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:195][ 98]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:211][ 99]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:227][100]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:243][101]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:259][102]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:276][103]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:292][104]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:308][105]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:324][106]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:340][107]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:356][108]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:373][109]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:389][110]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:405][111]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:421][112]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:438][113]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:453][114]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:470][115]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:486][116]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:502][117]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:517][118]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:533][119]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:549][120]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:566][121]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:582][122]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:598][123]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:614][124]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:630][125]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:646][126]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:663][127]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:679][128]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:695][129]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:711][130]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:727][131]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:744][132]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:760][133]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:777][134]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:796][135]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:811][136]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:826][137]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:842][138]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:858][139]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:873][140]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:889][141]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:906][142]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:923][143]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:939][144]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:955][145]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:972][146]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.43:988][147]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:010][148]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:025][149]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:039][150]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:056][151]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:072][152]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:088][153]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:104][154]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:120][155]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:136][156]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:153][157]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:169][158]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:185][159]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:204][160]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:219][161]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:235][162]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:251][163]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:266][164]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:283][165]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:299][166]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:315][167]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:331][168]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:348][169]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:363][170]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:379][171]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:396][172]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:412][173]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:428][174]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:444][175]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:461][176]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:477][177]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:493][178]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:509][179]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:525][180]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:541][181]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:557][182]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:574][183]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:590][184]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:607][185]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:623][186]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:640][187]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:654][188]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:670][189]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:686][190]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:702][191]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:718][192]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:735][193]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:751][194]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:767][195]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:783][196]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:799][197]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:816][198]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:833][199]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:848][200]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:864][201]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:880][202]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:896][203]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:912][204]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:928][205]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:944][206]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:960][207]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:976][208]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.44:993][209]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:009][210]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:026][211]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:041][212]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:057][213]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:073][214]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:089][215]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:105][216]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:121][217]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:137][218]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:153][219]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:170][220]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:187][221]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:203][222]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:219][223]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:236][224]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:253][225]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:267][226]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:283][227]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:299][228]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:315][229]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:331][230]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:348][231]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:364][232]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:380][233]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:396][234]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:412][235]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:428][236]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:444][237]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:460][238]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:476][239]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:492][240]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:509][241]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:525][242]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:542][243]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:558][244]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:574][245]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:591][246]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:607][247]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:626][248]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:640][249]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:659][250]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:673][251]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:689][252]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:705][253]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:721][254]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:737][255]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:754][256]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:770][257]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:786][258]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:803][259]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:819][260]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:835][261]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:853][262]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:867][263]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:883][264]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:899][265]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:915][266]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:932][267]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:948][268]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:964][269]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:980][270]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.45:997][271]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:013][272]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:029][273]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:045][274]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:060][275]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:076][276]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:092][277]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:109][278]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:125][279]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:141][280]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:157][281]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:173][282]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:190][283]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:206][284]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:223][285]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:238][286]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:255][287]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:271][288]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:286][289]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:302][290]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:318][291]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:334][292]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:350][293]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:366][294]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:382][295]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:399][296]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:415][297]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:432][298]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:448][299]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:469][300]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:486][301]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:500][302]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:516][303]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:533][304]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:549][305]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:565][306]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:582][307]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:599][308]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:615][309]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:631][310]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:647][311]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:662][312]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:679][313]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:694][314]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:709][315]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:725][316]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:742][317]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:758][318]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:774][319]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:790][320]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:807][321]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:823][322]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:839][323]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:856][324]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:872][325]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:887][326]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:903][327]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:920][328]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:936][329]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:953][330]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:969][331]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.46:985][332]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:001][333]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:018][334]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:033][335]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:049][336]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:065][337]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:081][338]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:097][339]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:321][340]LogPackageName: SearchForPackageOnDisk took   0.208s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.47:488][340]LogPackageName: SearchForPackageOnDisk took   0.166s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.47:488][340]LogNet: Browse: /Game/Comienzo
+[2020.01.25-22.02.47:488][340]LogNet:Warning: Travel Failure: [InvalidURL]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.47:488][340]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.47:488][340]LogNet:Warning: Travel Failure: [ClientTravelFailure]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.47:488][340]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.47:489][340]LogBlueprintUserMessages: [Enemigo_2] Hello
+[2020.01.25-22.02.47:491][341]LogNet: Browse: /Game/Comienzo?closed
+[2020.01.25-22.02.47:491][341]LogNet: Failed; returning to Entry
+[2020.01.25-22.02.47:495][341]LogLoad: LoadMap: /Game/Comienzo?closed
+[2020.01.25-22.02.47:549][341]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.02.47:549][341]LogMemory: Process Physical Memory: 899.41 MB used, 948.98 MB peak
+[2020.01.25-22.02.47:549][341]LogMemory: Process Virtual Memory: 1169.16 MB used, 1245.79 MB peak
+[2020.01.25-22.02.47:549][341]LogMemory: Physical Memory: 13729.94 MB used,  18957.34 MB free, 32687.28 MB total
+[2020.01.25-22.02.47:549][341]LogMemory: Virtual Memory: 6029.78 MB used,  18957.34 MB free, 134217728.00 MB total
+[2020.01.25-22.02.47:549][341]LogMemory: 
+[2020.01.25-22.02.47:549][341]Allocator Stats for TBB: (not implemented)
+[2020.01.25-22.02.47:551][341]LogAIModule: Creating AISystem for world Comienzo
+[2020.01.25-22.02.47:661][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:668][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.47:668][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.47:668][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.47:668][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.47:668][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.47:669][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.47:669][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.47:669][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:673][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0021,16] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 8 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.47:673][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0021,16] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.47:673][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0021,16] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.47:824][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.47:824][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.47:824][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.47:824][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.47:824][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.47:825][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.47:825][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.47:825][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:828][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0021,32] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 8 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.47:828][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0021,32] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.47:828][341]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0021,32] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:915][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:916][341]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.47:917][341]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.25-22.02.47:919][341]LogWorld: Bringing World /Game/Comienzo.Comienzo up for play (max tick rate 0) at 2020.01.25-23.02.47
+[2020.01.25-22.02.47:919][341]LogWorld: Bringing up level for play took: 0.000439
+[2020.01.25-22.02.47:920][341]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.01.25-22.02.47:922][341]LogLoad: Took 0.426935 seconds to LoadMap(/Game/Comienzo)
+[2020.01.25-22.02.52:369][606]LogPackageName: SearchForPackageOnDisk took   0.161s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.52:552][606]LogPackageName: SearchForPackageOnDisk took   0.183s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.52:552][606]LogNet: Browse: /Game/Comienzo
+[2020.01.25-22.02.52:552][606]LogNet:Warning: Travel Failure: [InvalidURL]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.52:552][606]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.52:552][606]LogNet:Warning: Travel Failure: [ClientTravelFailure]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.52:552][606]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.52:554][607]LogNet: Browse: /Game/Comienzo?closed
+[2020.01.25-22.02.52:554][607]LogNet: Failed; returning to Entry
+[2020.01.25-22.02.52:555][607]LogLoad: LoadMap: /Game/Comienzo?closed
+[2020.01.25-22.02.52:583][607]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.02.52:583][607]LogMemory: Process Physical Memory: 822.05 MB used, 948.98 MB peak
+[2020.01.25-22.02.52:583][607]LogMemory: Process Virtual Memory: 1065.56 MB used, 1245.79 MB peak
+[2020.01.25-22.02.52:583][607]LogMemory: Physical Memory: 13651.82 MB used,  19035.46 MB free, 32687.28 MB total
+[2020.01.25-22.02.52:583][607]LogMemory: Virtual Memory: 6021.78 MB used,  19035.46 MB free, 134217728.00 MB total
+[2020.01.25-22.02.52:583][607]LogMemory: 
+[2020.01.25-22.02.52:583][607]Allocator Stats for TBB: (not implemented)
+[2020.01.25-22.02.52:586][607]LogAIModule: Creating AISystem for world Comienzo
+[2020.01.25-22.02.52:706][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:713][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.52:713][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.52:713][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.52:713][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.52:713][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.52:714][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.52:714][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.52:714][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:717][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0026,21] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 8 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.52:717][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0026,21] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.52:717][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0026,21] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.52:866][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.52:866][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.52:867][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.52:867][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.52:867][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.52:867][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.52:867][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.52:868][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:870][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0026,36] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 7 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.52:870][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0026,36] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.52:871][607]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0026,36] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.52:956][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:956][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:956][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:956][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:957][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:958][607]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.52:959][607]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.25-22.02.52:962][607]LogWorld: Bringing World /Game/Comienzo.Comienzo up for play (max tick rate 0) at 2020.01.25-23.02.52
+[2020.01.25-22.02.52:962][607]LogWorld: Bringing up level for play took: 0.000464
+[2020.01.25-22.02.52:962][607]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.01.25-22.02.52:964][607]LogLoad: Took 0.409163 seconds to LoadMap(/Game/Comienzo)
+[2020.01.25-22.02.53:820][650]LogPackageName: SearchForPackageOnDisk took   0.161s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.54:010][650]LogPackageName: SearchForPackageOnDisk took   0.190s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.54:010][650]LogNet: Browse: /Game/Comienzo
+[2020.01.25-22.02.54:010][650]LogNet:Warning: Travel Failure: [InvalidURL]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.54:010][650]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.54:010][650]LogNet:Warning: Travel Failure: [ClientTravelFailure]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.54:010][650]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.54:012][651]LogNet: Browse: /Game/Comienzo?closed
+[2020.01.25-22.02.54:012][651]LogNet: Failed; returning to Entry
+[2020.01.25-22.02.54:013][651]LogLoad: LoadMap: /Game/Comienzo?closed
+[2020.01.25-22.02.54:038][651]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.02.54:038][651]LogMemory: Process Physical Memory: 823.05 MB used, 948.98 MB peak
+[2020.01.25-22.02.54:038][651]LogMemory: Process Virtual Memory: 1125.23 MB used, 1245.79 MB peak
+[2020.01.25-22.02.54:038][651]LogMemory: Physical Memory: 13654.44 MB used,  19032.84 MB free, 32687.28 MB total
+[2020.01.25-22.02.54:038][651]LogMemory: Virtual Memory: 6037.78 MB used,  19032.84 MB free, 134217728.00 MB total
+[2020.01.25-22.02.54:038][651]LogMemory: 
+[2020.01.25-22.02.54:038][651]Allocator Stats for TBB: (not implemented)
+[2020.01.25-22.02.54:041][651]LogAIModule: Creating AISystem for world Comienzo
+[2020.01.25-22.02.54:149][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:156][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.54:156][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.54:156][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.54:156][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.54:157][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.54:157][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.54:157][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.54:158][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:160][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0027,65] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 8 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.54:160][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0027,65] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.54:160][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0027,65] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.54:310][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.54:310][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.54:311][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.54:311][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.54:311][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.54:311][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.54:311][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.54:312][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:315][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0027,80] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 9 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.54:315][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0027,80] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.54:316][651]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0027,80] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.54:403][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:403][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:403][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:403][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:404][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:405][651]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.54:407][651]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.25-22.02.54:410][651]LogWorld: Bringing World /Game/Comienzo.Comienzo up for play (max tick rate 0) at 2020.01.25-23.02.54
+[2020.01.25-22.02.54:410][651]LogWorld: Bringing up level for play took: 0.000479
+[2020.01.25-22.02.54:411][651]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.01.25-22.02.54:413][651]LogLoad: Took 0.399906 seconds to LoadMap(/Game/Comienzo)
+[2020.01.25-22.02.55:055][681]LogPackageName: SearchForPackageOnDisk took   0.158s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.55:256][681]LogPackageName: SearchForPackageOnDisk took   0.201s, but failed to resolve Level1.umap.
+[2020.01.25-22.02.55:256][681]LogNet: Browse: /Game/Comienzo
+[2020.01.25-22.02.55:257][681]LogNet:Warning: Travel Failure: [InvalidURL]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.55:257][681]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.55:257][681]LogNet:Warning: Travel Failure: [ClientTravelFailure]: URL no válida: /Game/Comienzo
+[2020.01.25-22.02.55:257][681]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'URL no válida: /Game/Comienzo'
+[2020.01.25-22.02.55:259][682]LogNet: Browse: /Game/Comienzo?closed
+[2020.01.25-22.02.55:259][682]LogNet: Failed; returning to Entry
+[2020.01.25-22.02.55:261][682]LogLoad: LoadMap: /Game/Comienzo?closed
+[2020.01.25-22.02.55:300][682]LogMemory: Platform Memory Stats for Windows
+[2020.01.25-22.02.55:300][682]LogMemory: Process Physical Memory: 821.99 MB used, 948.98 MB peak
+[2020.01.25-22.02.55:300][682]LogMemory: Process Virtual Memory: 1140.22 MB used, 1245.79 MB peak
+[2020.01.25-22.02.55:300][682]LogMemory: Physical Memory: 13653.11 MB used,  19034.18 MB free, 32687.28 MB total
+[2020.01.25-22.02.55:300][682]LogMemory: Virtual Memory: 6053.78 MB used,  19034.18 MB free, 134217728.00 MB total
+[2020.01.25-22.02.55:300][682]LogMemory: 
+[2020.01.25-22.02.55:300][682]Allocator Stats for TBB: (not implemented)
+[2020.01.25-22.02.55:302][682]LogAIModule: Creating AISystem for world Comienzo
+[2020.01.25-22.02.55:405][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:412][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.55:412][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.55:412][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.55:412][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.55:412][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.55:412][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.55:413][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.55:413][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:416][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0028,91] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 9 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.55:416][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0028,91] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.55:416][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0028,91] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.55:579][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso Acción desconocida de referencias del evento InputAction 'Jump' para  InputAction Jump
+[2020.01.25-22.02.55:579][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUpRate' para  InputAxis LookUpRate
+[2020.01.25-22.02.55:579][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'TurnRate' para  InputAxis TurnRate
+[2020.01.25-22.02.55:579][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'Turn' para  InputAxis Turn
+[2020.01.25-22.02.55:579][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveRight' para  InputAxis MoveRight
+[2020.01.25-22.02.55:580][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'LookUp' para  InputAxis LookUp
+[2020.01.25-22.02.55:580][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso El eje desconocido de referencias del eje de entrada 'MoveForward' para  InputAxis MoveForward
+[2020.01.25-22.02.55:581][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:584][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0029,07] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 10 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.55:584][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0029,07] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.55:585][682]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Aviso [0029,07] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2020.01.25-22.02.55:665][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:665][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:665][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:665][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:666][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:667][682]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.01.25-22.02.55:676][682]LogLoad: Game class is 'Modo1vs1_C'
+[2020.01.25-22.02.55:678][682]LogWorld: Bringing World /Game/Comienzo.Comienzo up for play (max tick rate 0) at 2020.01.25-23.02.55
+[2020.01.25-22.02.55:679][682]LogWorld: Bringing up level for play took: 0.000965
+[2020.01.25-22.02.55:679][682]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.01.25-22.02.55:684][682]LogLoad: Took 0.422780 seconds to LoadMap(/Game/Comienzo)
+[2020.01.25-22.02.56:119][701]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.25-22.02.56:124][701]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.25-22.02.56:125][701]LogEngine: All Windows Closed
+[2020.01.25-22.02.56:125][701]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.01.25-22.02.56:400][702]LogExit: Preparing to exit.
+[2020.01.25-22.02.56:400][702]LogMoviePlayer: Shutting down movie player
+[2020.01.25-22.02.56:865][702]LogExit: Game engine shut down
+[2020.01.25-22.02.56:917][702]LogObj: Freed 0b from 0 cluster array pools.
+[2020.01.25-22.02.56:917][702]LogExit: Object subsystem successfully closed.
+[2020.01.25-22.02.56:938][702]LogD3D11RHI: Shutdown
+[2020.01.25-22.02.56:938][702]LogD3D11RHI: CleanupD3DDevice
+[2020.01.25-22.02.57:001][702]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (296)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module SequenceRecorder (294)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module AutomationController (292)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module AutomationWorker (290)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module AIModule (288)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module GameplayDebugger (287)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module AITestSuite (285)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (282)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (280)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (278)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module Media (277)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module CharacterAI (274)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module SessionServices (272)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (270)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (268)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module MovieScene (266)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module GeometryCache (264)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (263)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module Niagara (260)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module NiagaraEditor (259)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (256)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module PortalServices (254)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module PortalRpc (252)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module MessagingRpc (250)
+[2020.01.25-22.02.57:008][702]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2020.01.25-22.02.57:106][702]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2020.01.25-22.02.57:106][702]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module SteamVR (242)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module OculusInput (236)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module CableComponent (230)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module HotReload (217)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module SourceControl (209)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
+[2020.01.25-22.02.57:107][702]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
+[2020.01.25-22.02.57:208][702]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2020.01.25-22.02.57:650][702]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Collections/' was aborted.
+[2020.01.25-22.02.57:650][702]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Content/Developers/Lucía/Collections/' was aborted.
+[2020.01.25-22.02.57:650][702]LogDirectoryWatcher: A directory notification for 'C:/Users/Lucía/Documents/GitHub/Unreal/JuegoPropioUnreal/Saved/Collections/' was aborted.
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module Paper2D (176)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
+[2020.01.25-22.02.57:650][702]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2020.01.25-22.02.57:653][702]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2020.01.25-22.02.57:654][702]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2020.01.25-22.02.57:654][702]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2020.01.25-22.02.57:654][702]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2020.01.25-22.02.57:654][702]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2020.01.25-22.02.57:654][702]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2020.01.25-22.02.57:654][702]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2020.01.25-22.02.57:654][702]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module Core (120)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2020.01.25-22.02.57:656][702]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2020.01.25-22.02.57:769][702]LogDerivedDataCache: Shutdown
+[2020.01.25-22.02.57:769][702]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2020.01.25-22.02.57:769][702]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2020.01.25-22.02.57:769][702]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2020.01.25-22.02.57:769][702]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.01.25-22.02.57:770][702]LogOnline:Display: Unloading online subsystem: NULL
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.01.25-22.02.57:770][702]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.01.25-22.02.57:774][702]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.01.25-22.02.57:775][702]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.01.25-22.02.57:775][702]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.01.25-22.02.57:775][702]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.01.25-22.02.57:775][702]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.01.25-22.02.57:776][702]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.01.25-22.02.57:777][702]LogExit: Exiting.
+[2020.01.25-22.02.57:778][702]Log file closed, 01/25/20 23:02:57
